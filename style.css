@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+input{
+    padding: 0.4rem;
+    border-radius: 5px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.cep{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.resultado{
+    display: flex;
+    gap: 3rem;
+}
